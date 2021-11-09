@@ -1,13 +1,192 @@
+:root {
+  --primary: hsl(180, 29%, 50%);
+  --lgcBack: hsl(180, 52%, 96%);
+  --lgcTabl: hsl(180, 31%, 95%);
+  --dgc: hsl(180, 8%, 52%);
+  --vdgc: hsl(180, 14%, 20%);
+  font-size: 15px;
+  font-family: "Spartan", sans-serif;
+  font-weight: 700;
+  margin: 0;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--lgcBack);
+}
+header {
+  height: 20vh;
+  background: var(--primary)
+    url(https://firebasestorage.googleapis.com/v0/b/job-listing-d8ce5.appspot.com/o/bg-header-desktop.svg?alt=media&token=aabea1b2-9b88-4eb7-8301-697c33c9da0a);
+}
+#root {
+  margin: 2rem auto 0;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* JOB CARD */
+.jobsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.jobCard {
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0px 11px 10px -5px hsla(180, 29%, 50%, 0.199);
+  display: flex;
+  justify-content: space-between;
+  max-width: 80%;
+  margin: 1rem auto;
+  padding: 2rem;
+}
+.jobCard--featured {
+  border-left: var(--primary) solid 0.25rem;
+}
+.jobCard p {
+  margin: 0.1rem;
+}
+.jobCardDetails {
+  display: flex;
+  flex-direction: column;
+  color: var(--primary);
+  align-items: flex-start;
+  flex-grow: 1;
+  margin: 0 1rem;
+}
+
+.jobCardDetails--1 {
+  display: flex;
+  font-size: 0.75rem;
+}
+.jobCardDetails--1 :nth-child(n) {
+  margin-right: 0.5rem;
+}
+.jobCardDetails--1 span {
+  font-size: 0.8em;
+  color: white;
+  background-color: var(--primary);
+  padding: 0.25rem 0.5rem;
+  border-radius: 2em;
+}
+.jobCardDetails--1 .span--variant {
+  background-color: var(--vdgc);
+}
+.jobCardDetails--2 {
+  color: var(--vdgc);
+}
+.jobCardDetails--2:hover {
+  color: var(--primary);
+  cursor: pointer;
+}
+.jobCardDetails--3 {
+  display: flex;
+  font-size: 0.6rem;
+  font-weight: 500;
+  color: var(--dgc);
+}
+
+.jobCardTags {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0.25rem 0.5rem;
+  flex-wrap: wrap;
+}
+
+.jobCardTags span {
+  font-size: 0.75rem;
+  border-radius: 0.25rem;
+  background-color: var(--lgcBack);
+  padding: 0.25rem 0.5rem;
+  margin: 0.25rem;
+  color: var(--primary);
+}
+.jobCardTags span:hover {
+  background-color: var(--primary);
+  color: var(--lgcBack);
+  cursor: pointer;
+}
+
+.jobFilterContainer {
+  width: 80%;
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0px 11px 10px -5px hsla(180, 29%, 50%, 0.199);
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto 0.5rem;
+  padding: 1.25rem;
+}
+.filtersContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.filterContainer {
+  margin: 0.5rem 1rem;
+}
+.filter {
+  color: var(--primary);
+  background-color: var(--lgcBack);
+  border-radius: 0.5rem 0 0 0.5rem;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.75rem;
+}
+.filter--x {
+  color: white;
+  background-color: var(--primary);
+  border-radius: 0 0.5rem 0.5rem 0;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.75rem;
+}
+.filter--x:hover {
+  background-color: var(--vdgc);
+  cursor: pointer;
+}
+
+.filter--clear {
+  display: flex;
+  color: var(--dgc);
+  text-decoration: underline;
+  font-size: 0.75rem;
+  align-items: center;
+}
+.filter--clear:hover {
+  cursor: pointer;
+  color: var(--primary);
+}
+.hidden {
+  display: none;
+}
+.moveUp {
+  transform: translateY(-4.5rem);
+}
+
+@media screen and (max-width: 536px) {
+  .jobCard {
+    flex-direction: column;
+    margin: 1.5rem auto;
+  }
+  .jobImage {
+    width: 25%;
+    position: relative;
+    top: -4rem;
+    margin-bottom: -4rem;
+  }
+  .jobCardDetails--3 {
+    margin-bottom: 0.75rem;
+  }
+  .jobCardTags {
+    margin-top: 0.75rem;
+  }
 }

@@ -1,0 +1,154 @@
+
+[
+  {
+    "company": "Photosnap",
+    "news": true,
+    "featured": true,
+    "job": "Senior Frontend Developer",
+    "whens": "1d ago",
+    "how": "Full Time",
+    "where": "USA only",
+    "url": "'../images/account.sv'g",
+    "tagRole": "Frontend",
+    "tagLevel": "Senior",
+    "tagLanguages": ["HTML", "CSS", "JavaScript"],
+    "tagTools": [],
+    "imgUrl": "https://firebasestorage.googleapis.com/v0/b/job-listing-d8ce5.appspot.com/o/photosnap.svg?alt=media&token=d9f38010-acd0-4b47-91db-b052ccef63ba"
+  
+  },
+  {
+    "company": "Manage",
+    "news": true,
+    "featured": true,
+    "job": "Fullstack Developer",
+    "whens": "1d ago",
+    "how": "Part Time",
+    "where": "Remote",
+
+    "tagRole": "Fullstack",
+    "tagLevel": "Midweight",
+    "tagLanguages": ["Python"],
+    "tagTools": ["React"],
+    "imgUrl":"https://firebasestorage.googleapis.com/v0/b/job-listing-d8ce5.appspot.com/o/manage.svg?alt=media&token=504dd179-2b54-4260-b368-4e6280a21102"
+  },
+  {
+    "company": "Account",
+    "news": true,
+    "featured": false,
+    "job": "Junior Frontend Developer",
+    "whens": "2d ago",
+    "how": "Part Time",
+    "where": "Usa only",
+
+    "tagRole": "Frontend",
+    "tagLevel": "Junior",
+    "tagLanguages": ["JavaScript"],
+    "tagTools": ["React", "Sass"],
+    "imgUrl":"https://firebasestorage.googleapis.com/v0/b/job-listing-d8ce5.appspot.com/o/account.svg?alt=media&token=7a6fc261-111a-4924-b780-de547cd8a4ac"
+  },
+  {
+    "company": "MyHome",
+    "news": false,
+    "featured": false,
+    "job": "Junior Frontend Developer",
+    "whens": "5d ago",
+    "how": "Contract",
+    "where": "Usa only",
+
+    "tagRole": "Frontend",
+    "tagLevel": "Junior",
+    "tagLanguages": ["CSS", "JavaScript"],
+    "tagTools": [],
+    "imgUrl":"https://firebasestorage.googleapis.com/v0/b/job-listing-d8ce5.appspot.com/o/myhome.svg?alt=media&token=9daa83f0-dabf-41d3-8594-d9d0ba83179e"
+  },
+  {
+    "company": "Loop Studios",
+    "news": false,
+    "featured": false,
+    "job": "Software Engineer",
+    "whens": "1w ago",
+    "how": "Full Time",
+    "where": "Worldwide",
+
+    "tagRole": "Fullstack",
+    "tagLevel": "Midweight",
+    "tagLanguages": ["JavaScript", "Ruby"],
+    "tagTools": ["Sass"],
+    "imgUrl":"https://firebasestorage.googleapis.com/v0/b/job-listing-d8ce5.appspot.com/o/loop-studios.svg?alt=media&token=e60cb025-f0bc-4b44-a453-0dc62275eac1"
+  },
+  {
+    "company": "FaceIt",
+    "news": false,
+    "featured": false,
+    "job": "Junior Backend Developer",
+    "whens": "2w ago",
+    "how": "Full Time",
+    "where": "UK only",
+
+    "tagRole": "Backend",
+    "tagLevel": "Junior",
+    "tagLanguages": ["Ruby"],
+    "tagTools": ["RoR"],
+    "imgUrl":"https://firebasestorage.googleapis.com/v0/b/job-listing-d8ce5.appspot.com/o/faceit.svg?alt=media&token=fd69d19d-e212-464c-8bca-d1b8f5bbd152"
+  },
+  {
+    "company": "Shortly",
+    "news": false,
+    "featured": false,
+    "job": "Junior Developer",
+    "whens": "2w ago",
+    "how": "Full Time",
+    "where": "Worldwide",
+
+    "tagRole": "Frontend",
+    "tagLevel": "Junior",
+    "tagLanguages": ["HTML", "JavaScript"],
+    "tagTools": ["Sass"],
+    "imgUrl":"https://firebasestorage.googleapis.com/v0/b/job-listing-d8ce5.appspot.com/o/shortly.svg?alt=media&token=848ce4aa-40a4-4ee4-a8b1-0f9e935653f9"
+  },
+  {
+    "company": "Insure",
+    "news": false,
+    "featured": false,
+    "job": "Junior Frontend Developer",
+    "whens": "2w ago",
+    "how": "Full Time",
+    "where": "USA only",
+
+    "tagRole": "Frontend",
+    "tagLevel": "Junior",
+    "tagLanguages": ["JavaScript"],
+    "tagTools": ["Vue", "Sass"],
+    "imgUrl":"https://firebasestorage.googleapis.com/v0/b/job-listing-d8ce5.appspot.com/o/insure.svg?alt=media&token=8f61181a-a5fb-4c10-abd5-53ce7adb87b8"
+  },
+  {
+    "company": "Eyecam Co.",
+    "news": false,
+    "featured": false,
+    "job": "Full Stack Engineer",
+    "whens": "3w ago",
+    "how": "Full Time",
+    "where": "Worldwide",
+
+    "tagRole": "Fullstack",
+    "tagLevel": "Midweight",
+    "tagLanguages": ["JavaScript", "Python"],
+    "tagTools": ["Django"],
+    "imgUrl":"https://firebasestorage.googleapis.com/v0/b/job-listing-d8ce5.appspot.com/o/eyecam-co.svg?alt=media&token=e902b913-60b8-4ab6-b3ff-f881c01b17ad"
+  },
+  {
+    "company": "The Air Filter Company",
+    "news": false,
+    "featured": false,
+    "job": "Front-end Dev",
+    "whens": "1mo ago",
+    "how": "Part Time",
+    "where": "Worldwide",
+
+    "tagRole": "Frontend",
+    "tagLevel": "Junior",
+    "tagLanguages": ["JavaScript"],
+    "tagTools": ["React", "Sass"],
+    "imgUrl":"https://firebasestorage.googleapis.com/v0/b/job-listing-d8ce5.appspot.com/o/the-air-filter-company.svg?alt=media&token=4ea51da4-b3fb-4421-adec-5bc0befb6511"
+  }
+]
